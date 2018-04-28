@@ -1,3 +1,5 @@
 const app = "I don't do much."
 
-function 
+var kitten = ["Milo", "Otis", "Garfield"];
+
+function destructivelyAppendKitten()
