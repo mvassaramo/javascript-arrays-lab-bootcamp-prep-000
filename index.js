@@ -2,17 +2,18 @@ const app = "I don't do much."
 
 var kittens = ["Milo", "Otis", "Garfield"];
 
-function destructivelyAppendKitten(kittens,appendname) {
-   kittens.push(appendname);
-   return kittens;
+function destructivelyAppendKitten(array,appendname) {
+   array.push(appendname);
+   return array;
 }
 
-function destructivelyPrependKitten(kittens,prependname) {
-  kittens.unshift(prependname);
-  return kittens;
+function destructivelyPrependKitten(array,prependname) {
+  array.unshift(prependname);
+  return array;
 }
 
-function destructivelyRemoveLastKitten(kittens) {
-  kittens.pop();
-  return kittens;
+function destructivelyRemoveLastKitten(array) {
+  array.pop();
+  return array;
 }
+
